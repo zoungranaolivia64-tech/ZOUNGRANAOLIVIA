@@ -1,0 +1,49 @@
+{
+  "taches": [
+    {
+      "id": 1,
+      "title": "Rendre le TP de Programmation Mobile",
+      "courseId": 1,
+      "dueDate": "2026-11-22T23:59:00",
+      "description": "Envoyer le lien du dépôt GitHub par e-mail.",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Réviser l'entrepôt de données",
+      "courseId": 2,
+      "dueDate": "2026-11-28T08:00:00",
+      "description": "Schéma en étoile, tables de faits et de dimensions.",
+      "done": false
+    },
+    {
+      "id": 3,
+      "title": "Exposé sur les systèmes d'information",
+      "courseId": 3,
+      "dueDate": "2026-11-10T14:00:00",
+      "description": "Présentation de 10 minutes.",
+      "done": true
+    },
+    {
+      "id": 4,
+      "title": "Rapport de stage : plan détaillé",
+      "courseId": 3,
+      "dueDate": "2026-11-15T18:00:00",
+      "description": "",
+      "done": false
+    }
+  ],
+  "cours": [
+    { "id": 1, "name": "Programmation Mobile", "teacher": "M. COMPAORE", "color": "#1E5AA8" },
+    { "id": 2, "name": "Entrepôt de données", "teacher": "Dr. KABRE", "color": "#B45309" },
+    { "id": 3, "name": "Management des SI", "teacher": "Équipe pédagogique", "color": "#15803D" }
+  ],
+  "utilisateurs": [
+    {
+      "id": 1,
+      "name": "Awa Sawadogo",
+      "email": "etudiant@campusflow.bf",
+      "filiere": "Master 1 MSI"
+    }
+  ]
+}

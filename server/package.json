@@ -1,0 +1,13 @@
+{
+  "name": "campusflow-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API simulée de CampusFlow (json-server)",
+  "scripts": {
+    "start": "json-server --watch db.json --host 0.0.0.0 --port 3000 --middlewares ./middleware-login.js",
+    "start:auth": "json-server --watch db.json --host 0.0.0.0 --port 3000 --middlewares ./middleware-auth.js"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}
