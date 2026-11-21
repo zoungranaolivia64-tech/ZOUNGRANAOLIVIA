@@ -1,0 +1,11 @@
+name: campusflow_models
+description: Modèles de données de CampusFlow (Task, Course, User) sans dépendance à Flutter.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.3.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.25.0
